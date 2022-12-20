@@ -5,30 +5,16 @@
 <div dir="rtl">
   
 ### اسم الطالب
-
+علي سامر محمد مزهر
 
 ### اسم المشروع
-
+ConsultWay
 
 # شرح الفكرة
 المشكلة والحلول المطروحة إن وجدت
-
+هو عبارة عن موقع استشارات عامة رح يساعدك للوصول الى هدفك سواء بمشروع او عمل عن الطريق التواصل مع بعض المستشارين 
 
 # الأعمال المستقبلية
-
-
-</div>
-
-> Fill out project information in English ⬇️
-### Student Name
-
-
-### Project Name
-
-# Idea
-Problem and solutions if found 
-
-
-# Future Work 
+اضافة نظام حجوزات لنفس الموقع
 
 
