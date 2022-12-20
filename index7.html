@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consult Page</title>
+  <link href="./style7.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="Logos/Ver - Samer (1).png" type="image/icon type">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+  </script>
+</head>
+
+<body>
+  <div class="bg-img">
+    <div class="container">
+      <div>
+        <nav class="navbar navbar-expand navbar-light py-4 d-flex ">
+          <div class="container-fluid">
+            <a id="Logo" class="navbar-brand text-white" href="/index.html">ConsultWay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item" clas>
+                  <a class="nav-link active text-white edit11" aria-current="page"
+                    href="index.html"><span>Home</span></a>
+                </li>
+                <li class="nav-item text-sm-end edit11">
+                  <a class="nav-link text-white" href="index7.html"><span>Consult</span></a>
+                </li>
+                <li class="nav-item text-sm-end edit11">
+                  <a onclick="location.href='./personal/index.html'" class="nav-link text-white"
+                    href="#"><span>About</span></a>
+                </li>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <div class="position-absolute top-50 start-50 translate-middle text-center ph-1 pt-3">
+                <h3 class="u-align-center u-text u-text-1 text-white"> Our <span class="text-danger">Consultant</span>
+                </h3>
+                <p class="u-align-center u-text u-text-2 text-white"> WE HELP YOU DRIVE GROWTH THROUGH OUR EXPERIENCED
+                  &amp;
+                  TRUSTWORTHY
+                  CONSULTANTS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-cards">
+    <div class="container mt-5  contantStrate">
+      <div class="row">
+        <div class="col-md-4">
+
+          <div class="verFilter">
+
+
+            <h5 class="pb-2 pt-3"> <i class="fa-solid fa-filter me-3"></i>Filters</h5>
+            <h6 class=" text-muted pb-3">Consultant Type</h6>
+            <div>
+              <div class="form-check pb-2">
+                <div class="radio">
+                  <label for="Door2">
+                    <input type="radio" name="flexRadioDefault" id="Door2" value="0" data-cell="A19"
+                      class="form-check-input" onclick="buttonClicked1()">
+                    Financial Consultant
+                  </label>
+                </div><!-- radio -->
+              </div>
+              <div class="form-check pb-2">
+                <div class="radio">
+                  <label for="Door3">
+                    <input type="radio" name="flexRadioDefault" id="Door3" value="0" data-cell="A19"
+                      class="form-check-input" onclick="buttonClicked2()">
+                    Law Consultant
+                  </label>
+                </div><!-- radio -->
+              </div>
+              <div class="form-check pb-2">
+                <div class="radio">
+                  <label for="Door4">
+                    <input type="radio" name="flexRadioDefault" id="Door4" value="0" data-cell="A19"
+                      class="form-check-input" onclick="buttonClicked3()">
+                    Real estate Consultant
+                  </label>
+                </div><!-- radio -->
+              </div>
+              <div class="form-check pb-2">
+                <div class="radio">
+                  <label for="Door5">
+                    <input type="radio" name="flexRadioDefault" id="Door5" value="0" data-cell="A19"
+                      class="form-check-input" onclick="buttonClicked4()">
+                    Family Consultant
+                  </label>
+                </div><!-- radio -->
+              </div>
+            </div>
+            <hr>
+            <h6 class="pb-3 text-muted">Gender</h6>
+            <div class="form-check pb-2">
+              <div class="radio">
+                <label for="DoorHandle5">
+                  <input type="radio" name="flexRadioDefault4" id="DoorHandle4" value="0" data-cell="A24"
+                    onclick="buttonClicked5()" class="form-check-input">
+                  Male
+                </label>
+              </div><!-- radio -->
+            </div>
+            <div class="form-check pb-2">
+              <div class="radio">
+                <label for="DoorHandle5">
+                  <input type="radio" name="flexRadioDefault4" id="DoorHandle5" value="0" data-cell="A24"
+                    onclick="buttonClicked6()" class="form-check-input">
+                  Female
+                </label>
+              </div><!-- radio -->
+            </div>
+            <div class=" pt-4 ">
+              <button type="button" class="btn btn-outline-dark " id="resetBtn" onclick="showAll()">Reset
+                Filter</button>
+            </div>
+            <!--<h6 class="pb-2 text-muted">Rating</h6>
+
+            <input type="range" class="form-range range-custom" min="0" max="5" id="customRange2">
+            <div class="rate">
+              <input type="radio" id="star5" name="rate" value="5" onclick="clickFiveStar()" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate1" value="4" onclick="clickFourStar()" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate2" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate3" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate4" value="1" />
+              <label for="star1" title="text">1 star</label>
+            </div>-->
+          </div>
+
+        </div>
+
+        <div class="col-md-4 mb-4" id="colHide">
+          <div class="snip1336 mb-4" id="hideDiv">
+            <img src="Logos/resize-1670947534463636603download.jpeg" alt="sample87" />
+            <figcaption>
+              <img src="Logos/Screenshot_20221213-185022_WhatsApp.jpg" alt="profile-sample4" class="profile" />
+              <h2>Samer Mezher<span>Financial Consultant</span></h2>
+              <p class="pb-2 pt-1">With great experience, I aspire to help you achieve the greatest financial benefit
+                you
+                want to reach.
+              </p>
+              <div class="mb-2">
+
+              </div>
+              <button type="button" class="btn btn-outline-dark btn-edit" onclick="location.href='checkout.html'">Call
+                Now</button>
+
+            </figcaption>
+          </div>
+          <div class="snip1336" id="hideDiv1">
+            <img src="Logos/resize-1670950780750061229download1.jpeg" alt="sample87" />
+            <figcaption>
+              <img src="Logos/Moustapha.jpg" alt="profile-sample4" class="profile" />
+              <h2>Moh'd Ahmed<span>Law Consultant</span></h2>
+              <p class="pb-2 pt-1">If you need to consult in all branches of law, I will be at your service at the time
+                you
+                need it.
+              </p>
+              <div class="mb-2">
+
+              </div>
+              <button type="button" class="btn btn-outline-dark btn-edit" onclick="location.href='checkout2.html'">Call
+                Now</button>
+
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" id="colHide2">
+          <div class="snip1336 mb-4" id="hideDiv2">
+            <img src="Logos/resize-1670951531389340335RealEstateAgentBusinessIndia.jpg" alt="sample87" />
+            <figcaption>
+              <img src="Logos/pasted image 0.png" alt="profile-sample4" class="profile" />
+              <h2>Ali AL-Mawla<span>Real estate Consultant</span></h2>
+              <p class="pb-2 pt-1">In case you want to invest or build real estate, I will be the most suitable choice.
+              </p>
+              <div class="mb-2">
+
+              </div>
+              <button type="button" class="btn btn-outline-dark btn-edit" onclick="location.href='checkout3.html'">Call
+                Now</button>
+
+            </figcaption>
+          </div>
+          <div class="snip1336" id="hideDiv3">
+            <img src="Logos/resize-16709510821154707031download2.jpeg" alt="sample87" />
+            <figcaption>
+              <img src="Logos/istockphoto-1244524447-612x612.jpg" alt="profile-sample4" class="profile" />
+              <h2>Fatmaa Moh'd<span>Family Consultant</span></h2>
+              <p class="pb-2 pt-1">If you have any problem with family relationships and raising children, I would be
+                grateful for your help.
+              </p>
+              <div class="mb-2">
+
+              </div>
+              <button type="button" class="btn btn-outline-dark btn-edit" onclick="location.href='checkout4.html'">Call
+                Now</button>
+
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Waves Container-->
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="#141414" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="#dc3545" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="#dcd3c1" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#141414" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+  <footer id="footer1">
+    <div class="container py-5 text-white ">
+      <div class="row py-4">
+        <div class="col-lg-6 col-md-6  mb-4 mb-lg-0 edit31 ph-6"><img src="img/logo.png" alt="" width="180"
+            class="mb-3">
+          <p>ConsultWay is a platform that help entrepreneurs<br>and companies to find consulting solutions that<br>
+            grow up their businessess. </p>
+
+          <ul class="list-inline mt-4 ">
+            <li class="list-inline-item edit29"><a href="#" target="_blank" title="twitter"><i
+                  class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item edit29"><a href="#" target="_blank" title="facebook"><i
+                  class="fa-brands fa-facebook"></i></a></li>
+            <li class="list-inline-item edit29"><a href="https://www.instagram.com/consultway.online/" target="_blank"
+                title="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="list-inline-item edit29"><a href="#" target="_blank" title="pinterest"><i
+                  class="fa-brands fa-pinterest"></i></a></li>
+            <li class="list-inline-item edit29"><a href="#" target="_blank" title="vimeo"><i
+                  class="fa-brands fa-vimeo"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Links</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a onclick="location.href='index3.html'" class="text-muted">Be a Consultant </a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Terms</a></li>
+            <li onclick="location.href='./personal/index.html'" class="mb-2"><a href="#"
+                class="text-muted">Developer</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Be up to date</h6>
+          <p class="text-muted mb-4">We’ll send you updates on our latest launches and more. Your can unsubscribe at
+            any
+            time.</p>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+                class="form-control border-0 shadow-0 email-1">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link btn1"><i
+                    class="fa-solid fa-share"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2022 CounsultWay All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End -->
+
+  <script src="script7.js"></script>
+</body>
+
+</html>
